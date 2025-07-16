@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background: #0d47a1;
+}
+
+.navbar-brand img {
+    height: 100px; /* Adjust based on your logo size */
+    width: auto;
+}
+
+header {
+    background: linear-gradient(90deg, #1b263b, #4fc3f7, #00e676); /* Option 2: Deep Blue to Neon Green with Midpoint */
+}
+
+h1, h2, h3 {
+    color: #0d47a1;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.btn-primary {
+    background-color: #00e676;
+    border-color: #00e676;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #00c853;
+    border-color: #00c853;
+}
+
+.btn-secondary {
+    background-color: #0d47a1;
+    border-color: #0d47a1;
+}
+
+.btn-secondary:hover {
+    background-color: #08306b;
+    border-color: #08306b;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .lead {
+        font-size: 1.1rem;
+    }
+    img {
+        max-width: 80%;
+    }
+    .navbar-brand img {
+        height: 40px; /* Smaller logo on mobile */
+    }
+}
