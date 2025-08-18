@@ -51,7 +51,7 @@ footer a {
         font-size: 1.1rem;
     }
     img {
-        max-width: 80%;
+        max-width: 100%; height: auto;
     }
     .navbar-brand img {
         height: 40px; /* Smaller logo on mobile */
